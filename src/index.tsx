@@ -17,14 +17,14 @@ const Layout = ({ children }) => html`
     </head>
     <body>
       ${Header()}
-      <div id="root">${children}</div>
+      <main id="root">${children}</main>
     </body>
   </html>
 `;
 
 const Header = () => {
   return (
-    <div class="bg-gray-800 py-4">
+    <header class="bg-gray-800 py-4">
       <nav class="container mx-auto flex justify-between items-center">
         <a
           href="#"
@@ -51,7 +51,7 @@ const Header = () => {
           Contact
         </a>
       </nav>
-    </div>
+    </header>
   );
 };
 
