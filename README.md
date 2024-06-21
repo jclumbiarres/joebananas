@@ -1,3 +1,8 @@
+# Joe Bananas
+---
+
+A simple SSR test using Bun+Hono+HTMX 
+
 To install dependencies:
 ```sh
 bun install
